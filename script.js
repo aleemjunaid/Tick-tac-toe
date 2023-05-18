@@ -69,3 +69,4 @@ function restartGame(){
         localStorage.clear('data')
     })
 }
+// add comment
