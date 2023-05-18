@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 62, 110);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-style: italic;
+}
+p{
+    font-size: 25px;
+    padding-bottom: 50px;
+    color: white;
+    font-family:sans-serif;
+    font-style: italic;
+}
+#main_Container{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.tick_cross{
+    height: 130px;
+    width:30%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border: 2px solid rgb(0, 62, 110);
+    margin-left: 10px;
+    background-color: white;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color:rgb(0, 62, 110);
+}
+button{
+    height: 5vh; 
+    width: 10%;
+    border-radius: 10px;
+    margin-top: 50px;
+    color:rgb(0, 62, 110);
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: rgb(0, 62, 110);
+    color: white;
+}
+.pointer_none{
+    pointer-events: none;
+}
